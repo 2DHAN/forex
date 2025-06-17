@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+scipy
+networkx
+plotly
+streamlit
+Pillow
+requests
