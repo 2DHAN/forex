@@ -2548,28 +2548,7 @@ with tab5:
 
         # Interface du rapport
         st.markdown('<div class="report-container">', unsafe_allow_html=True)
-        st.markdown('<p class="title">📘 Rapport : Modèles Mathématiques de Valorisation des Options</p>', unsafe_allow_html=True)
-        st.markdown('<p class="description">Ce rapport fournit une analyse approfondie des modèles de valorisation des options utilisés en finance :</p>', unsafe_allow_html=True)
-
-        # Liste des modèles avec tirets
-        st.markdown("""
-        - 📌 **Le modèle de Black-Scholes** : Présentation de la formule et de ses hypothèses.
-        - 📌 **Le modèle binomial** : Construction d’un arbre binaire pour évaluer les options.
-        - 📌 **Le modèle trinomial** : Extension du modèle binomial avec une branche supplémentaire.
-        - 📌 **La méthode de Monte-Carlo** : Simulation aléatoire pour estimer la valeur des options.
-        - 📌 Etude de la Sensibilité via l’analyse des différents greeks.           
-        """)
-
-        # Bouton de téléchargement stylisé
-        st.markdown('<div class="download-button">', unsafe_allow_html=True)
-        with open(pdf_path, "rb") as file:
-            st.download_button(label="📥 Télécharger le rapport", 
-                            data=file, 
-                            file_name="Rapport_Valorisation_Options.pdf", 
-                            mime="application/pdf")
-        st.markdown('</div>', unsafe_allow_html=True)
-
-        st.markdown('</div>', unsafe_allow_html=True)
+        
 
         st.write("Ce calculateur vous permet d'évaluer les prix des options et de visualiser les résultats selon différents modèles. Suivez les instructions ci-dessous pour entrer les paramètres nécessaires et obtenir vos résultats. 📈")
 
